@@ -200,8 +200,8 @@ async def ac(ctx,*,content):
 #announce_commands
 
 
-@bot.command(pass_context=True)
-async def a(ctx,message):
+@bot.command()
+async def a(ctx,*,message):
     if 'owner' in [i.name for i in ctx.message.author.roles]:
         await ctx.send(message)
 
