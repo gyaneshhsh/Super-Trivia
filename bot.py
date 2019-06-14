@@ -203,7 +203,7 @@ async def ac(ctx,*,content):
 @bot.command()
 async def a(ctx,*,message):
     if 'owner' in [i.name for i in ctx.message.author.roles]:
-        await ctx.send(message)
+        await client.get_channel(588996229707464744).send(message)
 
     else:
         await ctx.send('Lol You have no perms')
