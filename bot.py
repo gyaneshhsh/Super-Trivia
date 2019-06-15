@@ -180,7 +180,7 @@ async def ac(ctx,*,content):
         colour=discord.Colour.blue()
         )
 
-        embed.set_footer(text='Made by 🔥🔥ᎶᎬᏁIUS🔥🔥#7440||Super Trivia Official')
+        embed.set_footer(text='Made by Just for fun#4278||Super Trivia Official')
         embed.add_field(name='\u200b' , value=f'''GAME ------  {gamename}''' , inline=False)
         embed.add_field(name='\u200b' , value=f'''GAME TIME -----  {gametime}''' , inline=False)
         embed.add_field(name='\u200b' , value=f'''ACCURACY --------- {accuracy}''' , inline=False)
